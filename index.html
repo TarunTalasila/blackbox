@@ -1,0 +1,18 @@
+<!DOCTYPE html> <html> <head> <title>Tarun's Garage</title> <style> body { font-family: Arial, sans-serif; }
+header { text-align: center; padding: 20px; background-color: #f8f9fa; }
+
+main { display: flex; justify-content: space-around; padding: 20px; }
+
+.car { text-align: center; }
+
+.car img { width: 200px; height: 150px; }
+
+form { margin: 20px; }
+
+footer { text-align: center; padding: 20px; background-color: #f8f9fa; }
+
+@media (max-width: 600px) { main { flex-direction: column; align-items: center; }
+
+.car { margin: 20px; } } </style>
+
+</head> <body> <header> <h1>Tarun's Garage</h1> </header> <main> <div class="car"> <img src="https://example.com/images/car1.jpg" alt="Car 1"> <h2>Car 1</h2> <p>Price: $50,000</p> <p>Year: 2024</p> <p>For rent or sale? <input type="radio" name="option" value="rent"> Rent <input type="radio" name="option" value="sale"> Sale</p> </div> <div class="car"> <img src="https://example.com/images/car2.jpg" alt="Car 2"> <h2>Car 2</h2> <p>Price: $60,000</p> <p>Year: 2024</p> <p>For rent or sale? <input type="radio" name="option" value="rent"> Rent<input type="radio" name="option" value="sale"> Sale</p> </div> <div class="car"> <img src="https://example.com/images/car3.jpg" alt="Car 3"> <h2>Car 3</h2> <p>Price: $70,000</p> <p>Year: 2024</p> <p>For rent or sale? <input type="radio" name="option" value="rent"> Rent <input type="radio" name="option" value="sale"> Sale</p> </div> </main> <form> <label for="name">Name:</label><br> <input type="text" id="name" name="name"><br> <label for="email">Email:</label><br> <input type="email" id="email" name="email"><br> <label for="model">Car model:</label><br> <input type="text" id="model" name="model"><br> <label for="message">Message:</label><br> <textarea id="message" name="message"></textarea><br> <input type="submit" value="Submit"> </form> <footer> <p>Contact us: 555-555-5555</p> <p>Email: <a href="mailto:tarunsgarage@example.com">tarunsgarage@example.com</a></p> <p>Address: 123 Main St, Anytown, USA</p> <p>Copyright © 2023 Tarun's Garage</p> </footer> </body> </html>
